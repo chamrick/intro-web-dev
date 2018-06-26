@@ -23,3 +23,29 @@ body {
   position: relative;
   top: -45px;
 }
+
+.main-navbar {
+  background-color: black;
+}
+
+.main-navbar a {
+  display: inline-block;
+  color: yellow;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.main-navbar a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.main-content {
+  padding: 10px;
+}
+
+.page-footer {
+  background-color: silver;
+  padding: 20px;
+  text-align: center;
+}
