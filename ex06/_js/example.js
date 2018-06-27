@@ -37,7 +37,7 @@ function initProductShow() {
   //   {
   //     img: (new Image()),
   //     file: 'p07-wrong-site.png',
-  //     caption: 'Dude! This is not my \'toon! I\'m on the wrong @#$%&* site!'
+  //     caption: 'Dude! This is not my \'toon!<br />I\'m on the wrong @#$%&* site!'
   //   }
   // ];
   // productsArray.forEach(function(obj) {
