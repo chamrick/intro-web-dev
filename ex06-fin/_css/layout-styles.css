@@ -1,0 +1,64 @@
+body {
+  background-color: gray;
+}
+
+body>a:first-child {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 1px 2px;
+  text-decoration: none;
+}
+
+.layout-wrap {
+  border: 3px solid green;
+  background-color: white;
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.page-header {
+  background-color: green;
+}
+
+.page-header .logo-link {
+  display: inline-block;
+  overflow: hidden;
+  height: 80px;
+}
+
+.page-header .logo-link img {
+  position: relative;
+  top: -45px;
+}
+
+.main-navbar {
+  background-color: black;
+}
+
+.main-navbar a {
+  display: inline-block;
+  color: yellow;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.main-navbar a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.main-navbar a#YAH {
+  background-color: white;
+  color: green;
+}
+
+.main-content {
+  padding: 10px;
+}
+
+.page-footer {
+  background-color: silver;
+  padding: 20px;
+  text-align: center;
+}
