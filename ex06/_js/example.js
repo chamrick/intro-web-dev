@@ -2,7 +2,10 @@ var handleClick;
 
 function initProductShow() {
   alert('Called initProductShow() function in JavaScript!');
+  // // where the product images are stored
   // var productsImgFolder = '_prod_img/';
+  //
+  // // the details of each product image
   // var productsArray = [
   //   {
   //     img: (new Image()),
@@ -40,14 +43,20 @@ function initProductShow() {
   //     caption: 'Dude! This is not my \'toon!<br />I\'m on the wrong @#$%&* site!'
   //   }
   // ];
+  //
+  // // for each product image, set the src correctly
   // productsArray.forEach(function(obj) {
   //   obj.img.src = productsImgFolder + obj.file;
   // });
-
+  //
+  // // find the image and caption in the HTML DOM
   // var productsShowImg = document.getElementById('productsShowImg');
   // var productsShowCaption = document.getElementById('productsShowCaption');
+  //
+  // // start with product "0"...
   // var currentDisplayIndex = -1;
-
+  //
+  // // when user clicks, increment product number (with wraparound)...
   // var clickHandler = function() {
   //   currentDisplayIndex++;
   //   if (currentDisplayIndex === productsArray.length) {
