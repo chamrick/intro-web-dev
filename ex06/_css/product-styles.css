@@ -1,0 +1,16 @@
+#productsShow {
+  width: 350px;
+  border: 10px dotted red;
+  background-color: gray;
+}
+
+#productsShowCaption {
+  margin: 0px;
+  padding: 10px;
+  height: 50px;
+  background-color: white;
+  font-weight: bold;
+  color: green;
+  font-size: 20px;
+  text-align: center;
+}

@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <title>ACME Coyote Supply, Inc. - Products</title>
-    <link rel="stylesheet" type="text/css" href="_css/layout_styles.css" />
+    <link rel="stylesheet" type="text/css" href="_css/layout-styles.css" />
+    <link rel="stylesheet" type="text/css" href="_css/product-styles.css" />
     <script src="_js/example.js"></script>
   </head>
   <body onload="handleClick = initProductShow()">
@@ -14,22 +15,23 @@
       <nav class="main-navbar">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="products.html">Products</a>
+        <a href="products.html" id="YAH">Products</a>
         <a href="services.html">Services</a>
       </nav>
       <section class="main-content">
         <h1>Products</h1>
         <div id="productsShow">
           <img id="productsShowImg"
-               width="250"
-               height="220"
+               width="350"
+               height="300"
                src="_img/acme-corp-white.jpg"
                onclick="handleClick()" />
           <p id="productsShowCaption">Click to show products...</p>
         </div>
       </section>
       <footer class="page-footer">
-        &copy; Copyright 2018 ACME Coyote Supply, Inc.<br />
+        &copy; Copyright 2018 ACME Anvil Corporation, Inc.<br />
+        A subsidiary of ACME Coyote Outfitters, Inc.<br />
         All Rights Reserved
       </footer>
     </div>
