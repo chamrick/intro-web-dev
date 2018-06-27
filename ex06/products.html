@@ -3,8 +3,9 @@
   <head>
     <title>ACME Coyote Supply, Inc. - Products</title>
     <link rel="stylesheet" type="text/css" href="_css/layout_styles.css" />
+    <script src="_js/example.js"></script>
   </head>
-  <body>
+  <body onload="handleClick = initProductShow()">
     <a style="display:block;float:right;" href="../index.html">INDEX</a>
     <div class="layout-wrap">
       <header class="page-header">
@@ -18,12 +19,14 @@
       </nav>
       <section class="main-content">
         <h1>Products</h1>
-        <p>
-          This is the Products page.
-        </p>
-        <p>
-          You'd put some relevant content here.
-        </p>
+        <div id="productsShow">
+          <img id="productsShowImg"
+               width="250"
+               height="220"
+               src="_img/acme-corp-white.jpg"
+               onclick="handleClick()" />
+          <p id="productsShowCaption">Click to show products...</p>
+        </div>
       </section>
       <footer class="page-footer">
         &copy; Copyright 2018 ACME Coyote Supply, Inc.<br />
